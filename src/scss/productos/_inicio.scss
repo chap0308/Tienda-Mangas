@@ -1,0 +1,17 @@
+table.propiedades {
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+    thead {
+        background-color: green;
+        text-align: center;
+        th {
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        td{
+            text-align: center;
+        }
+    }
+}

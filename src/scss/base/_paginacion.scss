@@ -1,0 +1,47 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+
+.paginacion{
+    list-style: none;
+
+    @include m.telefono {
+        display: flex;
+        justify-content: center;
+    }
+}
+.paginacion ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.paginacion ul .active a{
+    background: #ce7f08;
+
+}
+
+.paginacion ul .disabled{
+    background: #c8c8c8;
+    display: inline-block;
+    font-family: "Oswald",Arial, Helvetica, sans-serif;
+    padding: 15px 25px;
+    cursor: not-allowed;
+    color: #fff;
+    text-decoration: none;
+}
+
+.paginacion ul li a{
+    display: inline-block;
+    font-family: "Oswald",Arial, Helvetica, sans-serif;
+    padding: 15px 25px;
+    background: #424242;
+    color: #fff;
+    text-decoration: none;
+}
+
+.paginacion ul li a:hover{
+    text-decoration: none;
+    background: #3299bb;
+}
+
+.ocultar {
+    visibility: hidden;
+}

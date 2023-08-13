@@ -1,0 +1,84 @@
+
+
+main{
+    margin: 20px;
+    align-items: center;
+}
+.tarjeta{
+    background: #fcfcfc;
+    width: 160px;
+    height: 380px; /*altura  */
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    text-align: center;
+    margin: 8px 4px 8px 3px;
+    }
+
+.text-tarjeta{
+    display: flex ;
+    justify-content: center;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.text-precio{
+    margin-bottom: 10px;
+    color: red;
+    font-weight: bold;
+}
+.button-card{
+    border-radius:5px ; 
+    background-color: wheat;
+    ;
+}
+/***--------------categorias completo---------------*/
+.categoria{
+    display: flex;
+}
+
+.lista-categoria{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    margin-left: 560px;
+}
+.lista-tarjetas{
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center
+}
+/*-------------------lista categorias----*/
+.button-categoria{
+    
+    margin: 10px;
+    height: 60px;
+    width: 150px;
+    background-color: #839192;
+}
+.button-categoria a{
+    text-decoration: none;
+    color: black;
+    
+}
+.button-categoria a:hover{
+    text-decoration: none;
+    color: #283747 ;
+    
+}
+.button-categoria:hover{
+    text-decoration: none;
+    background:#ECF0F1;
+    
+}
+@media screen and (max-width: 576px) {
+    .lista-categoria{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+    }
+}

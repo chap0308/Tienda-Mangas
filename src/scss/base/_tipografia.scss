@@ -1,0 +1,6 @@
+@use 'variables' as v;
+
+.footer {
+    padding: calc(v.$separacion / 2) ;//math.div($separacion, 2)
+    margin-bottom: 0;
+}
