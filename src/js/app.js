@@ -59,6 +59,7 @@ function iniciarApp() {
 async function consultarAPI() {
 
     try {
+        //! const url =`${location.origin}/api/productos`;
         const url = '/api/productos';
         const resultado = await fetch(url);
         
@@ -529,6 +530,7 @@ async function realizarCompra(e){
         
 
         try {
+            //! const url =`${location.origin}/carrito`;
             const url = '/carrito'
 
             const respuesta=await fetch(url,{
@@ -596,6 +598,7 @@ async function actualizarInventario(){
 
 
     try {
+        //! const url =`${location.origin}/api/compras`;
         const url = '/api/compras'
         // const url = '/pagado'
         const respuesta=await fetch(url,{
