@@ -50,3 +50,16 @@ $ npx gulp
 
 - user: alberto_123@correo.com
 - password: 123456
+
+# ENV
+- DB_HOST = localhost
+- DB_USER = root
+- DB_PASS = root
+- DB_NAME = bd_mangas2
+
+- EMAIL_HOST = sandbox.smtp.mailtrap.io
+- EMAIL_PORT = 
+- EMAIL_USER = 
+- EMAIL_PASS = 
+
+- APP_URL = http://localhost:3000
